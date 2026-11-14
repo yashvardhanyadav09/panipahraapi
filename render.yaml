@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: PaaniPahra
+    name: PaaniPahraAPI
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
