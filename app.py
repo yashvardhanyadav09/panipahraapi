@@ -173,4 +173,4 @@ def update_rotds(location_id):
 
 if __name__ == '__main__':
     # Local testing only. On Render, gunicorn runs the app.
-    app.run(debug=True)
+    app.run()
